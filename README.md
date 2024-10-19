@@ -1,1 +1,2 @@
 # odin-recipes
+Through The Odin Project, create a basic website containing various recipes. By completing this mini project, it will have demonstrated setting up a website and placing appropriate HTML elements within the html index and pages, including headings, lists, strong and emphasized text, and more.
