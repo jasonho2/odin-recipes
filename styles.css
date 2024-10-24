@@ -1,0 +1,43 @@
+.font-h1 {
+    font-family: Papyrus, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: darkslategray;
+}
+
+.font-h3 {
+    font-family: Papyrus, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: darkslategray;
+}
+
+.font-link-home {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.font-body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: darkslategray;
+}
+
+a:link {
+    color: #0066cc; /* blue */
+    text-decoration: none;
+    border-bottom: 1px solid #ccc; /* light gray underline */
+}
+
+a:visited {
+    color: #9900cc; /* purple */
+}
+
+a:hover {
+    color: #ff9900; /* orange */
+    border-bottom: 2px solid #666; /* darker gray underline */
+}
+
+a:active {
+    color: #000; /* black */
+    border-bottom: 2px solid #666; /* darker gray underline */
+}
+
