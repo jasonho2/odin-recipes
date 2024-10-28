@@ -103,3 +103,7 @@ a:active {
     border: 1px solid #eee;
     text-decoration: none;
 }
+
+li {
+    padding: 4px;
+}
