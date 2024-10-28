@@ -1,43 +1,94 @@
+.background {
+    background-color: rgb(242, 242, 242);
+}
+
 .font-h1 {
     font-family: Papyrus, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
-    color: darkslategray;
+    color: rgb(27, 53, 53);
+    text-align: center;
 }
 
 .font-h3 {
     font-family: Papyrus, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
-    color: darkslategray;
-}
-
-.font-link-home {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    color: rgb(27, 53, 53);
 }
 
 .font-body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    color: darkslategray;
+    color: rgb(27, 53, 53);
 }
-
+/*
 a:link {
-    color: #0066cc; /* blue */
+    color: rgb(27, 53, 53);
     text-decoration: none;
-    border-bottom: 1px solid #ccc; /* light gray underline */
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 a:visited {
-    color: #9900cc; /* purple */
+    color: #9900cc;
 }
 
 a:hover {
-    color: #ff9900; /* orange */
-    border-bottom: 2px solid #666; /* darker gray underline */
+    color: #ff9900;
+    border-bottom: 2px solid #666;
+    border-right: 2px solid #666;
 }
 
 a:active {
-    color: #000; /* black */
-    border-bottom: 2px solid #666; /* darker gray underline */
+    color: #000;
+    border-bottom: 2px solid #666;
+    border-right: 2px solid #666;
+}
+*/
+.font-link-body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(27, 53, 53);
+}
+.font-link-body:hover {
+    color: #ff9900;
 }
 
+.font-link-home {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(27, 53, 53);
+    text-decoration: none;
+}
+.font-link-home:hover {
+    color: #ff9900;
+}
+
+.button-page-nav {
+    background: rgb(64, 103, 103);
+    color: rgb(242, 242, 242);
+    padding: 8px;
+    text-align: center;
+    display: block;
+    padding: 8px;
+    border-color: #000;
+    margin: 8px auto;
+    width: 200px;
+    border: 1px solid #eee;
+    text-decoration: none;
+}
+.button-page-nav:hover {
+    color: #ff9900;
+}
+
+.button-home-nav {
+    background: rgb(64, 103, 103);
+    color: rgb(242, 242, 242);
+    padding: 8px;
+    text-align: center;
+    display: block;
+    padding: 8px;
+    border-color: #000;
+    width: 140px;
+    border: 1px solid #eee;
+    text-decoration: none;
+}
